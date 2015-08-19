@@ -1,0 +1,19 @@
+{
+  "Picture": {
+    "class": "com.adi.example.first.Picture",
+    "dependencies": [
+      {
+          "service": "SystemFeature"
+      }
+    ]
+  },
+  "SystemFeature": {
+    "class": "com.adi.example.first.SystemFeature",
+    "dependencies": [
+      {
+        "from": "context",
+        "method": "getPackageManager"
+      }
+    ]
+  }
+}
