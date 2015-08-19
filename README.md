@@ -28,7 +28,7 @@ Currently the following JSON format works:
 ```json
 {
     "NameOfService": {
-        "fqns": "com.whatever.YourClass"
+        "fqns": "com.whatever.YourClass",
         "dependencies": [
             {
               "service": "YourSecondService"
